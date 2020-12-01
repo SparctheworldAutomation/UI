@@ -1,0 +1,557 @@
+credentials:
+  system:
+    domainCredentials:
+    - credentials:
+      - usernamePassword:
+          id: "970bd920-79cc-4c2a-87d1-3bce282ffcd5"
+          password: "{AQAAABAAAAAQlVNYuiT0wCNxHlHNl7iTxrZ7Wk2/7N4lGcaBzav2MIo=}"
+          scope: GLOBAL
+          username: "pnagrebetskyi@gmail.com"
+      - usernamePassword:
+          id: "e8e1ddf7-cb89-4a09-af1d-792afcf3b2b7"
+          password: "{AQAAABAAAAAQ79NqdL6aIIwIIcSuqghCT2clTzwnfvWp7TK1VLZsbKU=}"
+          scope: GLOBAL
+          username: "pnagrebetskyi@gmail.com"
+jenkins:
+  agentProtocols:
+  - "JNLP4-connect"
+  - "Ping"
+  authorizationStrategy:
+    projectMatrix:
+      permissions:
+      - "Agent/Build:iryna"
+      - "Agent/Build:pavel"
+      - "Agent/Build:reviewer"
+      - "Agent/Build:voronovsky"
+      - "Agent/Configure:iryna"
+      - "Agent/Configure:pavel"
+      - "Agent/Configure:reviewer"
+      - "Agent/Configure:voronovsky"
+      - "Agent/Connect:iryna"
+      - "Agent/Connect:pavel"
+      - "Agent/Connect:reviewer"
+      - "Agent/Connect:voronovsky"
+      - "Agent/Create:iryna"
+      - "Agent/Create:pavel"
+      - "Agent/Create:reviewer"
+      - "Agent/Create:voronovsky"
+      - "Agent/Delete:iryna"
+      - "Agent/Delete:pavel"
+      - "Agent/Delete:reviewer"
+      - "Agent/Delete:voronovsky"
+      - "Agent/Disconnect:iryna"
+      - "Agent/Disconnect:pavel"
+      - "Agent/Disconnect:reviewer"
+      - "Agent/Disconnect:voronovsky"
+      - "Artifactory/Promote:iryna"
+      - "Artifactory/Promote:pavel"
+      - "Artifactory/Promote:reviewer"
+      - "Artifactory/Promote:voronovsky"
+      - "Artifactory/Release:DemoReviewer1"
+      - "Artifactory/Release:DemoReviewer2"
+      - "Artifactory/Release:DemoReviewer3"
+      - "Artifactory/Release:authenticated"
+      - "Artifactory/Release:iryna"
+      - "Artifactory/Release:pavel"
+      - "Artifactory/Release:reviewer"
+      - "Artifactory/Release:voronovsky"
+      - "Build Failure Analyzer/RemoveCause:iryna"
+      - "Build Failure Analyzer/RemoveCause:pavel"
+      - "Build Failure Analyzer/RemoveCause:reviewer"
+      - "Build Failure Analyzer/RemoveCause:voronovsky"
+      - "Build Failure Analyzer/UpdateCauses:iryna"
+      - "Build Failure Analyzer/UpdateCauses:pavel"
+      - "Build Failure Analyzer/UpdateCauses:reviewer"
+      - "Build Failure Analyzer/UpdateCauses:voronovsky"
+      - "Build Failure Analyzer/ViewCauses:iryna"
+      - "Build Failure Analyzer/ViewCauses:pavel"
+      - "Build Failure Analyzer/ViewCauses:reviewer"
+      - "Build Failure Analyzer/ViewCauses:voronovsky"
+      - "Credentials/Create:iryna"
+      - "Credentials/Create:pavel"
+      - "Credentials/Create:reviewer"
+      - "Credentials/Create:voronovsky"
+      - "Credentials/Delete:iryna"
+      - "Credentials/Delete:pavel"
+      - "Credentials/Delete:reviewer"
+      - "Credentials/Delete:voronovsky"
+      - "Credentials/ManageDomains:iryna"
+      - "Credentials/ManageDomains:pavel"
+      - "Credentials/ManageDomains:reviewer"
+      - "Credentials/ManageDomains:voronovsky"
+      - "Credentials/Update:iryna"
+      - "Credentials/Update:pavel"
+      - "Credentials/Update:reviewer"
+      - "Credentials/Update:voronovsky"
+      - "Credentials/View:DemoReviewer1"
+      - "Credentials/View:DemoReviewer2"
+      - "Credentials/View:DemoReviewer3"
+      - "Credentials/View:authenticated"
+      - "Credentials/View:iryna"
+      - "Credentials/View:pavel"
+      - "Credentials/View:reviewer"
+      - "Credentials/View:voronovsky"
+      - "Job/Build:iryna"
+      - "Job/Build:pavel"
+      - "Job/Build:reviewer"
+      - "Job/Build:voronovsky"
+      - "Job/Cancel:iryna"
+      - "Job/Cancel:pavel"
+      - "Job/Cancel:reviewer"
+      - "Job/Cancel:voronovsky"
+      - "Job/Configure:iryna"
+      - "Job/Configure:pavel"
+      - "Job/Configure:reviewer"
+      - "Job/Configure:voronovsky"
+      - "Job/Create:iryna"
+      - "Job/Create:pavel"
+      - "Job/Create:reviewer"
+      - "Job/Create:voronovsky"
+      - "Job/Delete:iryna"
+      - "Job/Delete:pavel"
+      - "Job/Delete:reviewer"
+      - "Job/Delete:voronovsky"
+      - "Job/Discover:DemoReviewer1"
+      - "Job/Discover:DemoReviewer2"
+      - "Job/Discover:DemoReviewer3"
+      - "Job/Discover:authenticated"
+      - "Job/Discover:iryna"
+      - "Job/Discover:pavel"
+      - "Job/Discover:reviewer"
+      - "Job/Discover:voronovsky"
+      - "Job/Move:iryna"
+      - "Job/Move:pavel"
+      - "Job/Move:reviewer"
+      - "Job/Move:voronovsky"
+      - "Job/Read:DemoReviewer1"
+      - "Job/Read:DemoReviewer2"
+      - "Job/Read:DemoReviewer3"
+      - "Job/Read:authenticated"
+      - "Job/Read:iryna"
+      - "Job/Read:pavel"
+      - "Job/Read:reviewer"
+      - "Job/Read:voronovsky"
+      - "Job/Workspace:iryna"
+      - "Job/Workspace:pavel"
+      - "Job/Workspace:reviewer"
+      - "Job/Workspace:voronovsky"
+      - "Lockable Resources/Reserve:iryna"
+      - "Lockable Resources/Reserve:pavel"
+      - "Lockable Resources/Reserve:reviewer"
+      - "Lockable Resources/Reserve:voronovsky"
+      - "Lockable Resources/Unlock:iryna"
+      - "Lockable Resources/Unlock:pavel"
+      - "Lockable Resources/Unlock:reviewer"
+      - "Lockable Resources/Unlock:voronovsky"
+      - "Lockable Resources/View:iryna"
+      - "Lockable Resources/View:pavel"
+      - "Lockable Resources/View:reviewer"
+      - "Lockable Resources/View:voronovsky"
+      - "Overall/Administer:iryna"
+      - "Overall/Administer:pavel"
+      - "Overall/Administer:reviewer"
+      - "Overall/Administer:voronovsky"
+      - "Overall/Read:DemoReviewer1"
+      - "Overall/Read:DemoReviewer2"
+      - "Overall/Read:DemoReviewer3"
+      - "Overall/Read:authenticated"
+      - "Overall/Read:iryna"
+      - "Overall/Read:pavel"
+      - "Overall/Read:reviewer"
+      - "Overall/Read:voronovsky"
+      - "Run/Delete:iryna"
+      - "Run/Delete:pavel"
+      - "Run/Delete:reviewer"
+      - "Run/Delete:voronovsky"
+      - "Run/Replay:DemoReviewer1"
+      - "Run/Replay:DemoReviewer2"
+      - "Run/Replay:DemoReviewer3"
+      - "Run/Replay:authenticated"
+      - "Run/Replay:iryna"
+      - "Run/Replay:pavel"
+      - "Run/Replay:reviewer"
+      - "Run/Replay:voronovsky"
+      - "Run/Update:iryna"
+      - "Run/Update:pavel"
+      - "Run/Update:reviewer"
+      - "Run/Update:voronovsky"
+      - "SCM/Tag:iryna"
+      - "SCM/Tag:pavel"
+      - "SCM/Tag:reviewer"
+      - "SCM/Tag:voronovsky"
+      - "View/Configure:iryna"
+      - "View/Configure:pavel"
+      - "View/Configure:reviewer"
+      - "View/Configure:voronovsky"
+      - "View/Create:iryna"
+      - "View/Create:pavel"
+      - "View/Create:reviewer"
+      - "View/Create:voronovsky"
+      - "View/Delete:iryna"
+      - "View/Delete:pavel"
+      - "View/Delete:reviewer"
+      - "View/Delete:voronovsky"
+      - "View/Read:DemoReviewer1"
+      - "View/Read:DemoReviewer2"
+      - "View/Read:DemoReviewer3"
+      - "View/Read:authenticated"
+      - "View/Read:iryna"
+      - "View/Read:pavel"
+      - "View/Read:reviewer"
+      - "View/Read:voronovsky"
+  crumbIssuer:
+    standard:
+      excludeClientIPFromCrumb: false
+  disableRememberMe: false
+  disabledAdministrativeMonitors:
+  - "jenkins.security.QueueItemAuthenticatorMonitor"
+  - "hudson.diagnosis.ReverseProxySetupMonitor"
+  globalNodeProperties:
+  - envVars:
+      env:
+      - key: "JDBC_PASSWROD"
+        value: "GbCAq5MU8asY0gxOmoQX8/V5vcbWgnRkzWAmZTZU5qo="
+      - key: "JDBC_URL"
+        value: "jdbc:postgresql://greencity-data.postgres.database.azure.com:5432/greencity"
+      - key: "JDBC_USERNAME"
+        value: "greencity_admin@greencity-data"
+  labelAtoms:
+  - name: "master"
+  markupFormatter: "plainText"
+  mode: NORMAL
+  myViewsTabBar: "standard"
+  numExecutors: 1
+  primaryView:
+    all:
+      name: "all"
+  projectNamingStrategy: "standard"
+  quietPeriod: 5
+  remotingSecurity:
+    enabled: true
+  scmCheckoutRetryCount: 0
+  securityRealm:
+    local:
+      allowsSignup: false
+      enableCaptcha: false
+      users:
+      - id: "DemoReviewer1"
+        name: "DemoReviewer1"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "theme"
+        - "favorite"
+        - keyboardShortcuts:
+            disabled: false
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - mailer:
+            emailAddress: "greencitypavel@gmail.com"
+      - id: "DemoReviewer2"
+        name: "DemoReviewer2"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "theme"
+        - "favorite"
+        - keyboardShortcuts:
+            disabled: false
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - mailer:
+            emailAddress: "greencitypavel@gmail.com"
+      - id: "DemoReviewer3"
+        name: "DemoReviewer3"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "theme"
+        - "favorite"
+        - keyboardShortcuts:
+            disabled: false
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - mailer:
+            emailAddress: "greencitypavel@gmail.com"
+      - id: "DemoReviewer4"
+        name: "DemoReviewer3"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "theme"
+        - "favorite"
+        - keyboardShortcuts:
+            disabled: false
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - mailer:
+            emailAddress: "greencitypavel@gmail.com"
+      - id: "iryna"
+        name: "Iryna Polihas"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "theme"
+        - "favorite"
+        - keyboardShortcuts:
+            disabled: false
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - mailer:
+            emailAddress: "iryna.test.automation@gmail.com"
+      - id: "pavel"
+        name: "NagrebetskyiPavel"
+        properties:
+        - "apiToken"
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - mailer:
+            emailAddress: "greencitypavel@gmail.com"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "favorite"
+        - keyboardShortcuts:
+            disabled: false
+        - "theme"
+      - id: "reviewer"
+        name: "reviewer"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "theme"
+        - "favorite"
+        - keyboardShortcuts:
+            disabled: false
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - mailer:
+            emailAddress: "garasym@gmail.com"
+      - id: "voronovsky"
+        name: "Danylo Voronovsky"
+        properties:
+        - "apiToken"
+        - favoriting:
+            autofavoriteEnabled: true
+        - "theme"
+        - "favorite"
+        - keyboardShortcuts:
+            disabled: false
+        - "myView"
+        - preferredProvider:
+            providerId: "default"
+        - "timezone"
+        - mailer:
+            emailAddress: "danik.voronovsky@gmail.com"
+  slaveAgentPort: -1
+  updateCenter:
+    sites:
+    - id: "default"
+      url: "https://updates.jenkins.io/update-center.json"
+  views:
+  - buildMonitor:
+      jobNames:
+      - "Master"
+      - "Test"
+      name: "Build Monitor View"
+      title: "Build Monitor View"
+  - list:
+      columns:
+      - "status"
+      - "weather"
+      - "jobName"
+      - "lastSuccess"
+      - "lastFailure"
+      - "lastDuration"
+      - "buildButton"
+      - "favoriteColumn"
+      - "lastBuildConsoleColumn"
+      jobNames:
+      - "Test"
+      name: "List"
+  - all:
+      name: "all"
+  viewsTabBar: "standard"
+security:
+  apiToken:
+    creationOfLegacyTokenEnabled: false
+    tokenGenerationOnCreationEnabled: false
+    usageStatisticsEnabled: true
+  sSHD:
+    port: -1
+unclassified:
+  artifactoryBuilder:
+    jfrogPipelinesServer:
+      bypassProxy: false
+      connectionRetries: 3
+      credentialsConfig:
+        ignoreCredentialPluginDisabled: true
+        overridingCredentials: false
+        password: "{AQAAABAAAAAQ8rNOvqlmYsR2ndTWXFjlSu1DZMRvSLv89p1UTRktYw4=}"
+        username: "****"
+      timeout: 300
+    useCredentialsPlugin: false
+  bitbucketEndpointConfiguration:
+    endpoints:
+    - bitbucketCloudEndpoint:
+        enableCache: false
+        manageHooks: false
+        repositoriesCacheDuration: 0
+        teamCacheDuration: 0
+  buildDiscarders:
+    configuredBuildDiscarders:
+    - "jobBuildDiscarder"
+  buildFailureAnalyzer:
+    doNotAnalyzeAbortedJob: false
+    gerritTriggerEnabled: true
+    globalEnabled: true
+    graphsEnabled: false
+    knowledgeBase: "localFile"
+    maxLogSize: 0
+    noCausesEnabled: true
+    noCausesMessage: "No problems were identified. If you know why this problem occurred,\
+      \ please add a suitable Cause for it."
+    nrOfScanThreads: 3
+    slackFailureCategories: "ALL"
+    slackNotifEnabled: false
+    testResultParsingEnabled: false
+  buildMonitorView:
+    permissionToCollectAnonymousUsageStatistics: true
+  buildStepOperation:
+    enabled: false
+  commonConfig:
+    nodeSelection: LABEL_ONLY
+    parallel: true
+    skipRoaming: true
+    timeoutInMilliseconds: 900000
+  dashboardView:
+    repositoryType: "artifactory"
+  defaultFolderConfiguration:
+    healthMetrics:
+    - worstChildHealthMetric:
+        recursive: true
+  dependencyGraphProperty:
+    editFunctionInJSViewEnabled: false
+    graphRankDirection: "TB"
+    graphvizEnabled: true
+    projectNameStripRegex: ".*"
+    projectNameStripRegexGroup: 1
+    projectNameSuperscriptRegexGroup: -1
+  diskUsageProjectActionFactory:
+    checkWorkspaceOnSlave: false
+    historyLength: 183
+    showGraph: false
+    timeoutWorkspace: 5
+  email-ext:
+    adminRequiredForTemplateTesting: false
+    allowUnregisteredEnabled: false
+    charset: "UTF-8"
+    debugMode: false
+    defaultBody: |-
+      $PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS:
+
+      Check console output at $BUILD_URL to view the results.
+    defaultContentType: "text/plain"
+    defaultSubject: "$PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS!"
+    defaultSuffix: "@gmail.com"
+    defaultTriggerIds:
+    - "hudson.plugins.emailext.plugins.trigger.FailureTrigger"
+    mailAccount:
+      address: "адрес еще не настроен <nobody@nowhere>"
+      smtpHost: "smtp.gmail.com"
+      smtpPassword: "{AQAAABAAAAAQp/96ceQa84dK1mc/eFqfsbHW8tuxQQiEHgu5EkJnlHA=}"
+      smtpPort: "465"
+      smtpUsername: "greencitypavel@gmail.com"
+      useSsl: true
+    maxAttachmentSize: -1
+    maxAttachmentSizeMb: -1
+    precedenceBulk: false
+    smtpPassword: "{AQAAABAAAAAQp/96ceQa84dK1mc/eFqfsbHW8tuxQQiEHgu5EkJnlHA=}"
+    watchingEnabled: false
+  fingerprints:
+    fingerprintCleanupDisabled: false
+    storage: "file"
+  gitHubConfiguration:
+    apiRateLimitChecker: ThrottleForNormalize
+  gitHubPluginConfig:
+    hookUrl: "http://34.107.97.237:8080/github-webhook/"
+  gitSCM:
+    allowSecondFetch: false
+    createAccountBasedOnEmail: false
+    disableGitToolChooser: false
+    hideCredentials: false
+    showEntireCommitSummaryInChanges: false
+    useExistingAccountWithSameEmail: false
+  ivyBuildTrigger:
+    extendedVersionMatching: false
+  location:
+    adminAddress: "greencitypavel@gmail.com"
+    url: "http://34.107.97.237:8080/"
+  mailer:
+    authentication:
+      password: "{AQAAABAAAAAQ+fysQiHTN2Wbg3vHzKyBBCk0gnGNcUqYDQlOyMMzwTs=}"
+      username: "greencitypavel@gmail.com"
+    charset: "UTF-8"
+    defaultSuffix: "@gmail.com"
+    smtpHost: "smtp.gmail.com"
+    smtpPort: "465"
+    useSsl: true
+    useTls: false
+  mavenModuleSet:
+    localRepository: "default"
+  pollSCM:
+    pollingThreadCount: 10
+  simple-theme-plugin:
+    elements:
+    - cssUrl:
+        url: "https://cdn.rawgit.com/afonsof/jenkins-material-theme/gh-pages/dist/material-green.css"
+    - faviconUrl:
+        url: "https://ita-social-projects.github.io/GreenCityClient/favicon.ico"
+  themeManager:
+    disableUserThemes: false
+  timestamper:
+    allPipelines: false
+    elapsedTimeFormat: "'<b>'HH:mm:ss.S'</b> '"
+    systemTimeFormat: "'<b>'HH:mm:ss'</b> '"
+tool:
+  allure:
+    installations:
+    - home: "/opt/allure-2.6.0"
+      name: "allure-2.6.0"
+  git:
+    installations:
+    - home: "git"
+      name: "Default"
+  jdk:
+    installations:
+    - home: "/usr/lib/jvm/java-8-openjdk-amd64"
+      name: "jdk8"
+  maven:
+    installations:
+    - home: "/usr/share/maven"
+      name: "Maven-3.6.0"
+  pipelineMaven:
+    triggerDownstreamUponResultAborted: false
+    triggerDownstreamUponResultFailure: false
+    triggerDownstreamUponResultNotBuilt: false
+    triggerDownstreamUponResultSuccess: true
+    triggerDownstreamUponResultUnstable: false
